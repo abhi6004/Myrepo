@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    height: 100%;
+    width: 100%;
+    left: 4px;
+    top: 5px;
+    border-radius: 0px;
+    overflow-y: hidden;
+}
+
+.header{
+    left: 117px;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(127, 153, 255);
+}
+
+#logo{
+    height: 82px;
+    width: 98px;
+    left: 117px;
+    top: 53px;
+    border-radius: 0px;
+
+}
+
+#start{
+    height: 54px;
+    width: 165px;
+    left: 1205px;
+    top: 54px;
+    border-radius: 5px;
+    background-color: rgb(157, 185, 230) ;
+
+}
+
+h3:hover{
+    background-color: rgb(39, 111, 227);
+}
+
+.fpart{
+    left: 117px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-y: hidden;
+}
+
+.fpart p{
+    height: 272px;
+    width: 573px;
+    left: 117px;
+    top: 373px;
+    border-radius: nullpx;
+    color: rgb(23, 9, 9);
+
+}
+
+#heading1{
+    height: 45px;
+    width: 312px;
+    left: 117px;
+    top: 266px;
+    border-radius: nullpx;
+}
+
+.spart{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-y: hidden;
+}
+
+.spart p{
+    height: 272px;
+    width: 573px;
+    left: 117px;
+    top: 373px;
+    border-radius: nullpx;
+    color: rgb(23, 9, 9);
+
+}
+
+#heading2{
+    height: 45px;
+    width: 260px;
+    left: 791px;
+    top: 872px;
+    border-radius: nullpx;
+
+}
+
+.bottom{
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    border-radius: 0px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.belement{
+    justify-content: space-evenly;
+    overflow-y: hidden;
+
+}
