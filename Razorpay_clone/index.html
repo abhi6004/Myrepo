@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Razorpay.com</title>
     <link rel="stylesheet" href="main.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <title>Razorpay.com</title>
 </head>
 <body>
     <!-- navbar -->
@@ -113,46 +115,80 @@
 
     <!-- feature section -->
     <div class="relative mt-[190px] overflow-hidden">
-      <img src="./images/feature-section1-dottedrows.png" loading="lazy" width="233" height="167">
-      <img src="./images/feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167" >
-    </div>
+      <img src="./images/feature-section1-dottedrows.png" loading="lazy" 
+      width="233" 
+      height="167"
+      class="absolute -top-[8rem] left-[10rem] inline-block -z-10">
 
+      <img src="./images/feature-section1-dottedrows.png" loading="lazy" 
+      width="233" 
+      height="167"
+      class="absolute top-[3rem] right-0 inline-block rotate-180">
+  
+    <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
     <!-- heding -->
-    <h2>Accept Payments with Razorpay Payment Suite</h2>
-    <div></div>
+    <h2 class="text-center text-2xl leading-[1.2] font-bold">Accept Payments with Razorpay Payment Suite</h2> 
+    <div class="w-6 h-1 bg-green-600 mx-auto mt-4 mb-6"></div>
 
     <!-- content box -->
-    <div>
+    <div class="w-full min-h-[520px] bg-white flex rounded-md relative p-10 py-12 border">
       <!-- left section -->
-      <div>
-          <h3>Supercharge your business with the all‑powerful
-            <span>Payment Gateway</span>
+      <div class="flex flex-col justify-between w-full" >
+          <h3 class="font-mullish text-[28px] leading-10 font-bold max-w-[500px]">Supercharge your business with the all‑powerful
+            <span class="text-blue-500">Payment Gateway</span>
           </h3>
 
-            <ul> 
-              <li>100+ Payment Methods</li>
-              <li>Industry Leading Success Rate</li>
-              <li>Superior Checkout Experience</li>
-              <li>Easy to Integrate</li>
-              <li>Instant Settlements from day 1</li>
-              <li>In-depth Reporting and Insights</li>
-            </ul>
+          <ul class="space-y-2">
+            <li class="flex items-center space-x-2">
+                
+                <i class="fa-solid fa-check text-green-400"></i>
+                <span>100+ Payment Methods</span>
+            </li>
+            <li class="flex items-center space-x-2">
+                <i class="fa-solid fa-check text-green-400"></i>
+                <span> Industry Leading Success Rate </span>
+            </li>
+            <li class="flex items-center space-x-2">
+                <i class="fa-solid fa-check text-green-400"></i>
+                <span> Superior Checkout Experience </span>
+            </li>
+            <li class="flex items-center space-x-2">
+                <i class="fa-solid fa-check text-green-400"></i>
+                <span> Easy to Integrate </span>
+            </li>
+            <li class="flex items-center space-x-2">
+                <i class="fa-solid fa-check text-green-400"></i>
+                <span> Instant Settlements from day 1 </span>
+            </li>
+            <li class="flex items-center space-x-2">
+                <i class="fa-solid fa-check text-green-400"></i>
+                <span> In-depth Reporting and Insights </span>
+            </li>
 
           <!-- buttom and Hypersection -->
-          <div>
+          <div class="flex flex-row items-center space-x-4">
              <div>
-              <a href=""></a>
+                <button class="bg-blue-600 w-fit text-white px-[18px] rounded-md font-mullish font-bold">Sign Up now</button>
+             </div>
+
+             <!-- hyper link -->
+             <div>
+              <a href="">know more</a>
               <i> </i>
-            </div> 
+             </div> 
           </div>
 
       </div>
 
       <!-- right section -->
       <div>
-
+        <img src="./images/payment-suite.png"
+        class="max-w-[600px] right-0 bottom-0">
       </div>  
     </div>
+  </div>
+
+  </div>
 
 
 
