@@ -28,6 +28,7 @@
 .fourground{
     transform: translateZ(-20px);
     scale: 3;
+    object-fit: cover;
 }
 
 .background, .fourground{
